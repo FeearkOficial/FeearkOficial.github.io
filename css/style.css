@@ -20,6 +20,10 @@ body, html {
 
 img{max-width: 100% !important;}
 
+.texto {
+    text-align: center;
+}
+
 h1 {
     font-weight: bold;
     font-size: 2.5em;
