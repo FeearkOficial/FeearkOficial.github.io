@@ -1,0 +1,100 @@
+/* Define que o body ocupara toda a tela */
+body {
+  width: 100%;
+  height: 100vh; /* 100% da altura da tela */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Evita barra de rolagem horizontal */
+}
+
+/*Define o fundo*/
+
+#background img {
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+    width: 100%;
+    height: 100vh; /* 100% da altura da tela */
+
+}
+ 
+#logo img {
+    width: 350px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 300%;
+ }
+
+/*Define de imagens*/
+
+#logo {
+    position: absolute;
+    left: 138px;
+    top: 110px;
+}
+
+#instagram img {
+    position: absolute;
+    left: 159px;
+    top: 491px;
+}
+
+#youtube img {
+    position: absolute;
+    left: 233px;
+    top: 491px;
+}
+
+#discord img {
+    position: absolute;
+    left: 320px;
+    top: 491px;
+}
+
+#linkedin img {
+    position: absolute;
+    left: 407px;
+    top: 491px;
+}
+
+/* Textos */
+
+
+#projetos {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 32px;
+    color: #817FAD;
+    position: absolute;
+    left: 813px;
+    top: 50px;
+}
+
+#contato {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 32px;
+    color: #817FAD;
+    position: absolute;
+    left: 1013px;
+    top: 50px;
+}
+
+#text01 p{
+    font-family: 'Roboto' , sans-serif; /*mudar a fonte*/ 
+    font-size: 20px ; /*mudar o tamanho da fonte*/
+    color: #E0E0E0; /*mudar a cor*/   
+    position: absolute;
+    left: 650px;
+    top: 110px;
+    text-align: center; /*deixar alinhado o texto*/ 
+}
+
+
+#text02 p{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px; 
+    color: #B8B8D1;
+    position: absolute;
+    left: 611px;
+    top: 146px;
+    text-align: center;
+}
+
